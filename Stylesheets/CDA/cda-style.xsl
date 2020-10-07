@@ -40,6 +40,10 @@
         padding: 0px 15px;
       }
 
+      #navbar-list-cda {
+        display: none;
+      }
+
       .cda-render .toc-box {
         
       }
@@ -113,6 +117,19 @@
       
       .cda-render .bold {
         font-weight: bold;
+      }
+
+      table {
+        border-collapse: collapse;
+        border: 1px solid #ccc;
+      }
+
+      th, td {
+        padding: 0.5em;
+      }
+
+      tr {
+        border-bottom: 1px solid #ccc;
       }
 
       .cda-render .active {
